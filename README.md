@@ -1,4 +1,4 @@
-# Weather Planner (working title)
+# Weather Planner
 
 Description:
 A weather app that lets the user search future dates for their ideal weather scenario.
