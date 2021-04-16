@@ -25,6 +25,7 @@ Calling a weather API and comparing it to the user's selected weather preference
 	-Returns results
 	
 Post screen that lets the user see the results of their search
+
 	-Easy to read, labeled results
 	-Redirect button to return to the home page
 
