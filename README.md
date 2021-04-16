@@ -32,13 +32,21 @@ Post screen that lets the user see the results of their search
 
 ### Technologies
 JS
+
 Node.js
+
 MYSQL
+
 HTML
+
 Weather API
+
 
 ### Dependencies
 Angular
+
 Node.js
+
 Express
+
 Nodemon
