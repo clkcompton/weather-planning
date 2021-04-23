@@ -1,7 +1,20 @@
 
-<div style="text-align:center">
+<div class="hello-my-name-is" style="text-align:center">
+
   <p>Login here!</p>
-  <input type="text" name="username"/>
-  <input type="password" name="passCode"/>
+
+  <form class="login-form">
+
+    <mat-form-field class="login-full-width">
+      <input matInput placeholder="Username">
+    </mat-form-field>
+
+    <mat-form-field class="login-full-width">
+      <input type="password" matInput placeholder="Password">
+    </mat-form-field>
+
+  </form>
+
   <button (click)="test()">Click Me</button>
+
 </div>
