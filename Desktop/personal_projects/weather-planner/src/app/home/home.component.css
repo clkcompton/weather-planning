@@ -10,12 +10,22 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   height: 300px;
   width:fit-content;
+  align-content: space-between
 }
 
 .activity {
   display: flex;
   flex-direction: column;
+}
+
+.new-activity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 300px;
+
 }

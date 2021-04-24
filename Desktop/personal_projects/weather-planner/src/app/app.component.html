@@ -1,11 +1,23 @@
+<!-- <nav class="navbar navbar-light bg-light">
+  <button class="navbar-brand" mat-menu-item routerLink="/">Home</button>
+  <button class="navbar-brand" mat-menu-item routerLink="/login">Login</button>
+</nav> -->
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
 
-<nav>
+<nav class="navbar navbar-dark bg-primary">
+  <a class="navbar-brand" routerLink="/">Home</a>
+  <a class="navbar-brand" routerLink="/login">Login</a>
+</nav>
+
+<!-- <nav>
   <button mat-button [matMenuTriggerFor]="menu">Menu</button>
   <mat-menu #menu="matMenu">
     <button mat-menu-item routerLink="/">Home</button>
     <button mat-menu-item routerLink="/login">Login</button>
   </mat-menu>
-</nav>
+</nav> -->
 
 <!-- main content container -->
 <div class="jumbotron">

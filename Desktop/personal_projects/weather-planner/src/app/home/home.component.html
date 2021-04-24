@@ -76,12 +76,12 @@
   
 
 <!-- form for new activity registration -->
-<form class="container">
+<form class="new-activity">
   <!-- action="http://localhost:8080/activity" method="post" -->
   <label>Activity Name<input type="text" name="activity-name"/></label>
   <label>Max Temperature<input type="number" name="max-temperature"/></label>
-  <label>Max Temperature<input type="number" name="min-temperature"/></label>
-  <button>Send Report</button>
+  <label>Min Temperature<input type="number" name="min-temperature"/></label>
+  <button>Create</button>
 </form>
 
 <button mat-raised-button (click)="openDialog()">Pick one</button>
