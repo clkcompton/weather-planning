@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 
 async function getForecast() {
 
-  const response = await fetch('https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,minutely,current,alerts&units=imperial&appid=083fb268e87096ea29c7db4175b59ef6');
+  const response = await fetch('https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,minutely,current,alerts&units=imperial&appid={API Key}');
   const body = await response.json();
 
   const result = body.daily.map(day => {
